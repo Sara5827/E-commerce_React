@@ -12,10 +12,14 @@ function App() {
      <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
+
+        
+
       </Switch>
       <Footer />
     </Router>
   );
 }
+
 
 export default App;
