@@ -3,14 +3,13 @@ import HeroSection from '../../HeroSection';
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
 import Pricing from '../../Pricing';
 
-function Services() {
+function SignUp() {
   return (
     <>
-      <Pricing />
       <HeroSection {...homeObjOne} />
       <HeroSection {...homeObjThree} />
     </>
   );
 }
 
-export default Services;
+export default SignUp;
